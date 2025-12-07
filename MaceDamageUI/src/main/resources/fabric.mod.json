@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "macedamageui",
+  "version": "1.0.0",
+  "name": "Mace Damage UI",
+  "description": "Показывает урон булавы рядом с прицелом",
+  "authors": ["smeshikMods"],
+  "contact": {
+    "homepage": "https://github.com/smeshikMods",
+    "sources": "https://github.com/smeshikMods/mace-damage-ui"
+  },
+  "license": "MIT",
+  "icon": "assets/macedamageui/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["org.smeshikMods.macedamageui.Macedamageui"],
+    "client": ["org.smeshikMods.macedamageui.client.MacedamageuiClient"],
+    "fabric-datagen": ["org.smeshikMods.macedamageui.client.MacedamageuiDataGenerator"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.10",
+    "java": ">=21"
+  },
+  "suggests": {}
+}
